@@ -1,0 +1,82 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Popins',sans-serif;
+}
+:root{
+    --background-conteiner: #3a3937;
+    --background-conteiner-cajas: #7f7c7c;
+    --color-text: #ffffff;
+    --color-bottom: #19cd64;
+}
+    body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, var(--background-conteiner) 15%, #a3a2a267 50%, #a3a2a267 50%, var(--background-conteiner) 85%);
+
+
+
+
+    }
+    .container{
+        max-width: 450px;
+        max-height: 45vh;
+        width: 100%;
+        background: var(--background-conteiner-cajas);
+        padding: 25px 30px;
+        border-radius: 5px;
+        flex-direction: column;
+      
+
+    }
+    .container .container_title{
+        font-size: 20px;
+        margin-top: 30px;
+        padding: 10px;
+        font-weight: bold;
+        color: var(--color-text);
+
+        line-height: 3;
+        text-align: center;
+
+    } 
+    .container .container_title_subtite{
+        font-size: 15px;
+        text-align: center;
+        font-weight: 400;
+        margin-top: 10px;
+        color: var(--color-text);
+    }
+
+    a{
+        background-color: var(--color-bottom);
+        border-radius: 0px;
+        text-decoration: none;
+        padding: 0 20px;
+        display: inline-block;
+        font-weight: bold;
+        border: 3px solid var(--background-conteiner);
+        line-height: 3;
+        font-size: 15px;
+        margin-top: 50PX ;
+        color: var(--color-text);
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+}
+
+     a:hover{
+        color: #000000;
+    }
+
+    /* 
+Aca agregoo scc de la pagina de inici y de login_
+__________________________
+
+    
+    */

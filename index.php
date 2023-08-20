@@ -14,6 +14,7 @@
 
 <body>
 
+
 <div class="container">
 <h1 class="container_title">REGISTRATE</h1>
   <h3 class="sub_title">Favor diligenciar todos los campos</h3>

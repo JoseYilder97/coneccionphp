@@ -1,11 +1,5 @@
 <?php
-$usuario = "root";
-$password = "";
-$servidor = "localhost";
-$basededatos = "jose";
-
-$conexion = mysqli_connect($servidor,$usuario,"", $basededatos) or die ("Error con el servidor de la base de datos");
-$bd = mysqli_select_db($conexion, $basededatos) or die ("Error de conexion al conectarse a la base de datos");
+include_once 'registra.php';
 
 $id=$_POST['id'];
 $nombre=$_POST['nombre'];
@@ -15,7 +9,7 @@ $correo=$_POST['correo'];
 $curso=$_POST['curso'];
 $telefono=$_POST['telefono'];
 
-$sql="INSERT INTO usuarios VALUES ('$id','$nombre','$apellido','$edad','$correo','$curso','$telefono')";
+$sql="INSERT INTO usuarios VALUES ('$id,'$nombre','$apellido','$edad','$correo','$curso','$telefono')";
 
 $ejecutar=mysqli_query($conexion, $sql);
 

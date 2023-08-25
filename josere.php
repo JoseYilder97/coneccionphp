@@ -16,7 +16,7 @@
 <h1 class="container_title">¿Regístrese si a un no tienes cuenta?</h1>
 <h3 class="container_title_subtite">Regístrese para que puedas iniciaar sesión</h3>
 <!-- <a href="registro.php">Ingrese con sus credenciales</a>  --><!-- <span>o</span> -->
-<a href="registrar.php">Registrarse</a>
+<a href="conexionsql.php">Registrarse</a>
 </body>
 </div>
 </html>

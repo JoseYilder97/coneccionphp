@@ -19,10 +19,9 @@
 <div class="container">
 <h1 class="container_title">Iniciar sesión</h1>
   <div class="form">
-  <form action="password" method="POST">
+  <form action="" method="POST">
     <input type="text" placeholder="correo:" maxlength="100" required name="correo">
-
-    <input type="password" placeholder="contraseña:" maxlength="100" required name="contrasena">
+    <input type="password" placeholder="contrasena:" maxlength="100" required name="contrasena">
     <input type="submit" class="button" value="Login">
     <a href='loggin.php'>Regresar</a>
     <a href='registrar.php'>Crea tu Cuenta</a>

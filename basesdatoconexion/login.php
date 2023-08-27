@@ -4,7 +4,7 @@ session_start();
 if (isset($_SESSION['userid'])) {
     header('Location: /php-login');
 }
-require 'database.php';
+require 'conexion.php';
 
 $message = '';
 
